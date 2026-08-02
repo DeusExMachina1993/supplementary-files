@@ -1,4 +1,4 @@
-#supplementary files
+## supplementary files
 
 Per-experience model checkpoints for both arms and all three
 seeds of the submitted manuscript, plus the shared patch-0
