@@ -1,0 +1,130 @@
+paper repo: D:\PHD\CGCO\IJE\SPlit\paper_latex\paper4_DGEM_DREPLAY
+training repo: D:\PHD\CGCO\IJE\SPlit
+raw checkpoints: D:\PHD\CGCO\IJE\SPlit\checkpoints\per_exp
+self-check: raw==deposited tensors (201 tensors)
+  convention 'raw bytes, row-major, native dtype': 0 of 201 rows match
+  convention 'float64 bytes': 0 of 201 rows match
+  convention 'column-major bytes': 0 of 201 rows match
+  convention 'name + raw bytes': 0 of 201 rows match
+  convention 'str(tolist())': 0 of 201 rows match
+  convention 'json tolist': 0 of 201 rows match
+  convention 'repr of numpy array': 0 of 201 rows match
+  convention 'torch.save bytes of the tensor': 0 of 201 rows match
+  convention 'raw bytes of float16': 0 of 201 rows match
+no candidate reproduces the August digests; checkpoint_hashes.csv will be REGENERATED for every
+deposited file under 'raw bytes, row-major, native dtype' so that all rows follow one documented rule.
+54 checkpoints to add, 572 MB raw
+wrote PatchAdapterFFN_r8_ppHead_seed1_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed1_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed1_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed1_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed2_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed2_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed2_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed2_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed3_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed3_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed3_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r8_ppHead_seed3_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed1_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed1_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed1_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed1_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed2_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed2_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed2_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed2_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed3_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed3_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed3_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r32_ppHead_seed3_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed1_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed1_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed1_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed1_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed2_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed2_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed2_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed2_exp4.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed3_exp1.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed3_exp2.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed3_exp3.pt (161 tensors)
+wrote PatchAdapterFFN_r64_ppHead_seed3_exp4.pt (161 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed1_exp2.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed1_exp3.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed1_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed2_exp2.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed2_exp3.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed2_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed3_exp2.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed3_exp3.pt (201 tensors)
+wrote PatchExpertFFN_refresh2_ppHead_seed3_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh3_ppHead_seed1_exp3.pt (201 tensors)
+wrote PatchExpertFFN_refresh3_ppHead_seed1_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh3_ppHead_seed2_exp3.pt (201 tensors)
+wrote PatchExpertFFN_refresh3_ppHead_seed2_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh3_ppHead_seed3_exp3.pt (201 tensors)
+wrote PatchExpertFFN_refresh3_ppHead_seed3_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh4_ppHead_seed1_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh4_ppHead_seed2_exp4.pt (201 tensors)
+wrote PatchExpertFFN_refresh4_ppHead_seed3_exp4.pt (201 tensors)
+regenerated checkpoint_hashes.csv: 12903 rows over 79 files, convention 'raw bytes, row-major, native dtype'
+
+== zero-forgetting verification from the deposited files ==
+PatchAdapterFFN_r8_ppHead seed 1 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 1 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 1 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 2 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 2 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 2 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 3 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 3 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r8_ppHead seed 3 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 1 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 1 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 1 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 2 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 2 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 2 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 3 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 3 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r32_ppHead seed 3 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 1 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 1 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 1 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 2 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 2 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 2 patch 3: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 3 patch 1: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 3 patch 2: 22 tensors bit-identical
+PatchAdapterFFN_r64_ppHead seed 3 patch 3: 22 tensors bit-identical
+PatchExpertFFN_refresh2_ppHead seed 1 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh2_ppHead seed 1 patch 2: 32 tensors bit-identical
+PatchExpertFFN_refresh2_ppHead seed 1 patch 3: 32 tensors bit-identical
+PatchExpertFFN_refresh2_ppHead seed 2 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh2_ppHead seed 2 patch 2: 32 tensors bit-identical
+PatchExpertFFN_refresh2_ppHead seed 2 patch 3: 32 tensors bit-identical
+PatchExpertFFN_refresh2_ppHead seed 3 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh2_ppHead seed 3 patch 2: 32 tensors bit-identical
+PatchExpertFFN_refresh2_ppHead seed 3 patch 3: 32 tensors bit-identical
+PatchExpertFFN_refresh3_ppHead seed 1 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh3_ppHead seed 1 patch 2: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh3_ppHead seed 1 patch 3: 32 tensors bit-identical
+PatchExpertFFN_refresh3_ppHead seed 2 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh3_ppHead seed 2 patch 2: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh3_ppHead seed 2 patch 3: 32 tensors bit-identical
+PatchExpertFFN_refresh3_ppHead seed 3 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh3_ppHead seed 3 patch 2: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh3_ppHead seed 3 patch 3: 32 tensors bit-identical
+PatchExpertFFN_refresh4_ppHead seed 1 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 1 patch 2: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 1 patch 3: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 2 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 2 patch 2: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 2 patch 3: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 3 patch 1: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 3 patch 2: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+PatchExpertFFN_refresh4_ppHead seed 3 patch 3: 32 tensors bit-identical (pre-refresh, taken from PatchExpertFFN_ppHead)
+copied 7 post-hoc reports and 11 curve files
+NOT copying eval_bwt_posthoc.py: 1 lines carry identifying tokens or absolute paths:
+    f"Tensor key sets differ:\n  only in a: {set(a) - set(b)}\n"
